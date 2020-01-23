@@ -63,6 +63,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\Piece2Detect.cs" />
+    <Compile Include="Assets\Scripts\Piece3Detect.cs" />
+    <Compile Include="Assets\Scripts\Piece4Detect.cs" />
+    <Compile Include="Assets\Scripts\PieceDetect.cs" />
     <Compile Include="Assets\Scripts\WinDetect.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/taymcken/Documents/GitHub/Sprite-Mover-III/Sprite Mover III/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
