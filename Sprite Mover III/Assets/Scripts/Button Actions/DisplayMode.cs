@@ -27,16 +27,16 @@ public class DisplayMode : MonoBehaviour
         if (darkEnable == false)
         {
             lighter.GetComponent<TilemapRenderer>().sortingOrder = -1;
-            darker.GetComponent<TilemapRenderer>().sortingOrder = 0;
+            darker.GetComponent<TilemapRenderer>().sortingOrder = 1;
             darkEnable = true;
-            FileKeep.DarkEnable = true;
+            //FileKeep.DarkEnable = true;
         }
         else
         {
-            lighter.GetComponent<TilemapRenderer>().sortingOrder = 0;
+            lighter.GetComponent<TilemapRenderer>().sortingOrder = 1;
             darker.GetComponent<TilemapRenderer>().sortingOrder = -1;
             darkEnable = false;
-            FileKeep.DarkEnable = true;
+            //FileKeep.DarkEnable = true;
         }
     }
 }
