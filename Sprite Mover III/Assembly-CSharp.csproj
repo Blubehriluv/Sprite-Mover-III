@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Button Actions\DisplayMode.cs" />
     <Compile Include="Assets\Scripts\Button Actions\GoToLevelSelect.cs" />
     <Compile Include="Assets\Scripts\Button Actions\QuitGame.cs" />
+    <Compile Include="Assets\Scripts\Button Actions\StartLeveLOne.cs" />
     <Compile Include="Assets\Scripts\DisplayModeScript.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\Piece Files\Piece2Detect.cs" />
