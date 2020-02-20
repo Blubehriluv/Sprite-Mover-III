@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\Piece Files\Piece3Detect.cs" />
     <Compile Include="Assets\Scripts\Piece Files\Piece4Detect.cs" />
     <Compile Include="Assets\Scripts\Piece Files\PieceDetect.cs" />
+    <Compile Include="Assets\Scripts\ResetPosition.cs" />
     <Compile Include="Assets\Scripts\WinDetect.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/taymcken/Documents/GitHub/Sprite-Mover-III/Sprite Mover III/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

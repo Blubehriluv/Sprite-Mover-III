@@ -6,6 +6,7 @@ public class Movement : MonoBehaviour
 {
     private Transform tf;
     public float speed;
+    private Vector2 startArea;
 
     // Use this for initialization
     void Start()
