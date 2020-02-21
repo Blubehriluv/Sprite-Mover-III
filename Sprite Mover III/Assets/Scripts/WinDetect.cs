@@ -20,8 +20,6 @@ public class WinDetect : MonoBehaviour
         trigger2 = GameObject.FindGameObjectWithTag("Trigger2");
         trigger3 = GameObject.FindGameObjectWithTag("Trigger3");
         trigger4 = GameObject.FindGameObjectWithTag("Trigger4");
-        
-
     }
 
     // Update is called once per frame
@@ -49,12 +47,12 @@ public class WinDetect : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         move.speed = 0;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(3);
         LoadLevel("LevelSelect");
     }
 
     void LoadLevel(string level)
     {
-        SceneManager.LoadScene(level);
+        SceneManager.LoadScene("WinScreen");
     }
 }
